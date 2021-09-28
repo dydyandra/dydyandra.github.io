@@ -4,6 +4,11 @@
     font-family: sans-serif;
 }
 
+a:link, a:visited,  a:hover, a:active
+{
+    color: #000000;
+    text-decoration: none;
+}
 .container{
     width: 100%;
     margin-right: auto;
@@ -240,6 +245,7 @@
   
   .card-title {
     margin-bottom: 0.5rem;
+    color: #000!important;
   }
   
   .card-subtitle {
