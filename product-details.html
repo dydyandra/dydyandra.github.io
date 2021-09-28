@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://use.fontawesome.com/6f05757a67.js"></script>
+</head>
+
+<body>
+    <header class="container" style="background-color:white">
+        <div>
+            <nav class="navbar" style="margin-right: 2%; margin-left: 4%;">
+                <!-- <h1 style="font-weight: bold;">The Reading Den</h1> -->
+                <img href="index.html" src="public/img/logo.png" width="200px " alt="logo">
+                <div class="flex-column">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Track Order</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-dark " type="submit">Search</button>
+                        </form>
+                </div>
+            </nav>
+        </div>
+        </div>
+    </header>
+
+  <div class="container" style="background-color: #e1eedd;">
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #183a1d;">
+          <div class="mx-auto order-0" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                  <a class="nav-link text-white" href="index.html">Home</a>
+                  <a class="nav-link text-white" href="list.html">Shop</a>
+                  <a class="nav-link text-white" href="uc.html">Blog</a>
+                  <a class="nav-link text-white" href="uc.html">About Us</a>
+              </div>
+          </div>
+      </nav>
+  </div>
+
+    <div class="card-wrapper" style="height: fit-content;">
+      <div class="card-hi">
+        <!-- card left -->
+        <div class="product-imgs">
+          <div class="img-display">
+            <div class="img-showcase">
+              <img src="public/img/emma.jpg" alt="shoe image">
+            </div>
+          </div>
+        </div>
+        <!-- card right -->
+        <div class="product-content">
+          <h2 class="product-title">Emma</h2>
+          <h3 class="product-author">Jane Austen</h3>
+          <div class="product-rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <span>4.7(21)</span><br>
+            <a href="https://www.goodreads.com/book/show/6969.Emma?ac=1&from_search=true&qid=i3hGrHtEDx&rank=1"
+              style="text-decoration: underline;">View on Goodreads</a>
+          </div>
+
+          <div class="product-price">
+            <h2 class="product-author">Rp.200.000</h2>
+          </div>
+
+          <div class="product-detail">
+            <h2>Description: </h2>
+            <p>Emma Woodhouse is one of Austen's most captivating and vivid characters. Beautiful, spoilt, vain and
+              irrepressibly witty,
+              Emma organizes the lives of the inhabitants of her sleepy little village and plays matchmaker with
+              devastating effect.</p>
+            <ul>
+              <li>Publisher: <span>Chilltern</span></li>
+              <li>Available: <span>in stock</span></li>
+              <li>Genre: <span>Classics</span></li>
+              <li>Shipping Area: <span>All over the world</span></li>
+              <li>Shipping Fee: <span>Free</span></li>
+            </ul>
+          </div>
+
+          <div class="purchase-info">
+            <button type="button" class="btn">
+              Add to Cart <i class="fa fa-shopping-cart"></i>
+            </button>
+            <button type="button" class="btn">Compare</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-9" style="margin-left: 80px; margin-right: auto; margin-bottom: 30px;">
+      <h2 style="text-align: left;">More Like This</h2>
+      <div class="d-flex mb-5" style="margin-right:10px">
+        <div class="card" style="width: 18rem; margin: 5px;">
+          <img src="public/img/persuasion.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Persuasion</h5>
+            <p class="card-text fw-bold">Rp. 250.000,00</p>
+            <p class="card-text">"You pierce my soul. I am half agony, half hope...I have loved none
+              but you."</p>
+
+          </div>
+          <div class="card-body">
+            <a class="btn btn-outline-dark" href="#" role="button">Add to Cart <i class="fa fa-shopping-cart"
+                aria-hidden="true"></i> </a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem; margin: 5px;">
+          <img src="public/img/jane-eyre.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Jane Eyre</h5>
+            <p class="card-text fw-bold">Rp. 220.000,00</p>
+            <p class="card-text">“I am no bird; and no net ensnares me: I am a free human being with
+              an independent will.”</p>
+          </div>
+          <div class="card-body">
+            <a class="btn btn-outline-dark" href="#" role="button">Add to Cart <i class="fa fa-shopping-cart"
+                aria-hidden="true"></i></a>
+            <!-- <a href="#" class="card-link">Another link</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1 style="color: transparent;">hi</h1>
+
+
+
+
+
+
+
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+      }
+    </script>
+
+    <script>
+      const imgs = document.querySelectorAll('.img-select a');
+      const imgBtns = [...imgs];
+      let imgId = 1;
+
+      imgBtns.forEach((imgItem) => {
+        imgItem.addEventListener('click', (event) => {
+          event.preventDefault();
+          imgId = imgItem.dataset.id;
+          slideImage();
+        });
+      });
+
+      function slideImage() {
+        const displayWidth = document.querySelector('.img-showcase img:first-child').clientWidth;
+
+        document.querySelector('.img-showcase').style.transform = `translateX(${- (imgId - 1) * displayWidth}px)`;
+      }
+
+      window.addEventListener('resize', slideImage);
+    </script>
+</body>
+
+</html>
